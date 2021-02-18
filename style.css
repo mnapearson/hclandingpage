@@ -1,9 +1,29 @@
 body {
+  margin: 0 auto;
   background-color: #40bad5;
+}
+
+section {
+  display: block;
+  width: 100vw;
+  height: 100vh;
 }
 
 h1 {
   font-size: 30px;
   font-style: bold;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://i0.wp.com/germanyiswunderbar.com/wp-content/uploads/Leipzig-Panorama-%C2%AE-Michael-Bader.jpg?fit=1280%2C1024&ssl=1");
+  background-size: cover;
+}
+
+.logo img {
+  opacity: 90%;
+  height: 40vh;
+  width: auto;
 }
