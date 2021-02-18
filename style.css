@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
-  background-color: #40bad5;
+  background-color: #120136;
+  color: white;
 }
 
 section {
@@ -26,4 +27,25 @@ h1 {
   opacity: 90%;
   height: 40vh;
   width: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 50px;
+}
+
+.form {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  text-align: center;
+  margin-top: 3rem;
 }
