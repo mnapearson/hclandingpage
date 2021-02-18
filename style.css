@@ -35,10 +35,19 @@ h1 {
 
 .title h1 {
   font-size: 50px;
+  background-color: #fcbf1e;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
-  margin: 2rem;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -46,6 +55,51 @@ h1 {
 }
 
 .description {
-  text-align: center;
   margin-top: 3rem;
+  text-align: center;
+  width: 80vw;
+  padding: 1rem;
+  background-color: #fcbf1e;
+  border-radius: 20px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons h1 {
+  text-align: center;
+  background-color: #fcbf1e;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.iphone {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  z-index: 1;
+  position: absolute;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.iconify {
+  display: flex;
+  font-size: 40px;
+  background-color: #fcbf1e;
+  border-color: #fcbf1e;
+  border-radius: 5px;
+  margin: 2rem;
+  z-index: 2;
 }
