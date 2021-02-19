@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" defer />
-    <script src="index.js" defer></script>
+    <script defer src="index.js"></script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <link rel="icon" href="Hallo.City.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -16,9 +16,9 @@
     <title>Hallo.City</title>
   </head>
   <body>
-    <section class="hero">
+    <header class="hero">
       <div class="logo"><img src="Hallo.City.png" alt="" /></div>
-    </section>
+    </header>
     <section class="intro">
       <div class="title">
         <h1>The Digital City Hub For Internationals</h1>
@@ -42,131 +42,167 @@
         </h1>
       </div>
     </section>
-    <section class="icons">
-      <h1>Everything you need in just a click (and in English!).</h1>
-      <div class="iphone">
-        <div class="phone"><img src="iphone 2.png" alt="" /></div>
-        <div class="categories">
+    <section>
+      <div class="icons">
+        <h1>Everything you need in just a click (and in English!).</h1>
+        <div class="iphone">
+          <div class="phone"><img src="iphone 2.png" alt="" /></div>
+          <div class="small-categories" id="small-categories">
+            <span
+              id="food"
+              class="iconify"
+              data-inline="false"
+              data-icon="wpf:dining-room"
+              style="color: white"
+            ></span>
+            <span
+              id="transport"
+              class="iconify"
+              data-inline="false"
+              data-icon="ic:baseline-emoji-transportation"
+              style="color: white"
+            ></span
+            ><span
+              id="finance"
+              class="iconify"
+              data-inline="false"
+              data-icon="carbon:piggy-bank"
+              style="color: white"
+            ></span
+            ><span
+              id="bike"
+              class="iconify"
+              data-inline="false"
+              data-icon="ic:baseline-pedal-bike"
+              style="color: white"
+            ></span
+            ><span
+              id="housing"
+              class="iconify"
+              data-inline="false"
+              data-icon="bx:bx-building-house"
+              style="color: white"
+            ></span>
+            <span
+              id="medical"
+              class="iconify"
+              data-inline="false"
+              data-icon="vaadin:doctor-briefcase"
+              style="color: white"
+            ></span>
+            <span
+              id="mobile"
+              class="iconify"
+              data-inline="false"
+              data-icon="clarity:mobile-phone-solid"
+              style="color: white"
+            ></span>
+            <span
+              id="fitness"
+              class="iconify"
+              data-inline="false"
+              data-icon="ion:fitness"
+              style="color: white"
+            ></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="features">
+        <div class="feature">
+          <h1>FIND</h1>
           <span
             class="iconify"
             data-inline="false"
-            data-icon="wpf:dining-room"
+            data-icon="bx:bx-search"
             style="color: white"
           ></span>
+        </div>
+        <div class="feature">
+          <h1>CREATE</h1>
           <span
             class="iconify"
             data-inline="false"
-            data-icon="ic:baseline-emoji-transportation"
-            style="color: white"
-          ></span
-          ><span
-            class="iconify"
-            data-inline="false"
-            data-icon="carbon:piggy-bank"
-            style="color: white"
-          ></span
-          ><span
-            class="iconify"
-            data-inline="false"
-            data-icon="ic:baseline-pedal-bike"
-            style="color: white"
-          ></span
-          ><span
-            class="iconify"
-            data-inline="false"
-            data-icon="bx:bx-building-house"
+            data-icon="uil:create-dashboard"
             style="color: white"
           ></span>
+        </div>
+        <div class="feature">
+          <h1>RATE</h1>
           <span
             class="iconify"
             data-inline="false"
-            data-icon="vaadin:doctor-briefcase"
+            data-icon="ic:round-star-rate"
             style="color: white"
           ></span>
+        </div>
+        <div class="feature">
+          <h1>BUY</h1>
           <span
             class="iconify"
             data-inline="false"
-            data-icon="clarity:mobile-phone-solid"
-            style="color: white"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="ion:fitness"
+            data-icon="icons8:buy"
             style="color: white"
           ></span>
         </div>
       </div>
     </section>
     <section>
-      <h1>Features</h1>
-      <img src="Hallo.Features.png" alt="" />
-      <h2>find</h2>
-      <span
-        class="iconify"
-        data-inline="false"
-        data-icon="bx:bx-search"
-        style="color: #fcbf1e"
-      ></span>
-      <h2>create</h2>
-      <span
-        class="iconify"
-        data-inline="false"
-        data-icon="uil:create-dashboard"
-        style="color: #fcbf1e"
-      ></span>
-      <h2>rate</h2>
-      <span
-        class="iconify"
-        data-inline="false"
-        data-icon="ic:round-star-rate"
-        style="color: #fcbf1e"
-      ></span>
-      <h2>buy</h2>
-      <span
-        class="iconify"
-        data-inline="false"
-        data-icon="icons8:buy"
-        style="color: #fcbf1e"
-      ></span>
+      <div class="team">
+        <h1>Our Team</h1>
+        <div class="team-members">
+          <img src="maricruz.png" alt="" />
+          <div class="team-text">
+            <h2>Maricrus Bermudex</h2>
+            <h3>Cofounder</h3>
+          </div>
+          <img src="vale.png" alt="" />
+          <div class="team-text">
+            <h2>Valeria Clement</h2>
+            <h3>Cofounder</h3>
+          </div>
+          <img src="barbie.png" alt="" />
+          <div class="team-text">
+            <h2>Barbara Nino</h2>
+            <h3>UX/UI Designer</h3>
+          </div>
+          <img src="ahmed.png" alt="" />
+          <div class="team-text">
+            <h2>Ahmed Salah</h2>
+            <h3>Fullstack Developer</h3>
+          </div>
+        </div>
+      </div>
     </section>
     <section>
-      <h1>Our Team</h1>
-      <img src="Hallo.Team.png" alt="" />
-      <h2>Maricrus Bermudex</h2>
-      <h3>Cofounder</h3>
-      <h2>Valeria Clement</h2>
-      <h3>Cofounder</h3>
-      <h2>Michaela Pearson</h2>
-      <h3>IT Project Manager</h3>
-      <h2>Barbara Nino</h2>
-      <h3>UX/UI Designer</h3>
-      <h2>Ahmed Salah</h2>
-      <h3>Fullstack Developer</h3>
-    </section>
-    <section>
-      <h1>Get in Touch!</h1>
-      <span
-        class="iconify"
-        data-inline="false"
-        data-icon="akar-icons:instagram-fill"
-        style="color: #fcbf1e"
-      ></span>
-      <h2>@hallocity_leipzig</h2>
-      <span
-        class="iconify"
-        data-inline="false"
-        data-icon="carbon:email"
-        style="color: #fcbf1e"
-      ></span>
-      <h2>hallocity.leipzig@gmail.com</h2>
-      <span
-        class="iconify"
-        data-inline="false"
-        data-icon="akar-icons:phone"
-        style="color: #fcbf1e"
-      ></span>
-      <h2>017621442453</h2>
+      <div class="contact">
+        <h1>Get in Touch!</h1>
+
+        <div class="contact-icons">
+          <span
+            class="iconify"
+            data-inline="false"
+            data-icon="akar-icons:instagram-fill"
+            style="color: white"
+          ></span>
+          <h2>@hallocity_leipzig</h2>
+          <span
+            class="iconify"
+            data-inline="false"
+            data-icon="carbon:email"
+            style="color: white"
+          ></span>
+          <h2>hallocity.leipzig@gmail.com</h2>
+          <span
+            class="iconify"
+            data-inline="false"
+            data-icon="akar-icons:phone"
+            style="color: white"
+          ></span>
+        </div>
+        <h2>017621442453</h2>
+      </div>
     </section>
   </body>
 </html>

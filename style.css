@@ -2,18 +2,11 @@ body {
   margin: 0 auto;
   background-color: #120136;
   color: white;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
 section {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-}
-
-h1 {
-  font-size: 30px;
-  font-style: bold;
-  font-family: "Gloria Hallelujah", cursive;
+  margin-bottom: 5rem;
 }
 
 .hero {
@@ -21,6 +14,8 @@ h1 {
   justify-content: center;
   background-image: url("https://i0.wp.com/germanyiswunderbar.com/wp-content/uploads/Leipzig-Panorama-%C2%AE-Michael-Bader.jpg?fit=1280%2C1024&ssl=1");
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 .logo img {
@@ -58,8 +53,8 @@ h1 {
   margin-top: 3rem;
   text-align: center;
   width: 80vw;
-  padding: 1rem;
-  background-color: #fcbf1e;
+  padding: 0 1rem;
+  background-color: #40bad5;
   border-radius: 20px;
 }
 
@@ -71,7 +66,6 @@ h1 {
 }
 
 .icons h1 {
-  text-align: center;
   background-color: #fcbf1e;
   border-radius: 20px;
   padding: 1rem;
@@ -89,17 +83,101 @@ h1 {
   position: absolute;
 }
 
-.categories {
+.small-categories {
   display: grid;
   grid-template-columns: 2fr 2fr;
+  z-index: 2;
 }
 
 .iconify {
-  display: flex;
   font-size: 40px;
   background-color: #fcbf1e;
   border-color: #fcbf1e;
   border-radius: 5px;
   margin: 2rem;
-  z-index: 2;
+}
+
+.iconify:hover {
+  background-color: #40bad5;
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature h1 {
+  background-color: #40bad5;
+  font-size: 48px;
+  padding: 0 2rem;
+  border-radius: 20px;
+}
+
+.feature .iconify {
+  font-size: 56px;
+  border-radius: 100px;
+  padding: 2rem;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team h1 {
+  font-size: 58px;
+  background-color: #fcbf1e;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.team-text {
+  line-height: 1rem;
+}
+
+.team img {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: #40bad5;
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact h1 {
+  font-size: 58px;
+  background-color: #fcbf1e;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
